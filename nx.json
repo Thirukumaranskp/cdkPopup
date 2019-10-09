@@ -1,0 +1,24 @@
+{
+  "npmScope": "monoworkspace",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "mbs-poc-e2e": {
+      "tags": []
+    },
+    "mbs-poc": {
+      "tags": []
+    },
+    "mbs-e2e": {
+      "tags": []
+    },
+    "mbs": {
+      "tags": []
+    }
+  }
+}

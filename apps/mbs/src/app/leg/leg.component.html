@@ -1,0 +1,19 @@
+<div>
+    <ng-template ngFor let-legIndex="index" let-ticetLeg [ngForOf]="legs">
+            
+        <ng-container *ngTemplateOutlet="legTemplate">
+                
+        </ng-container>
+        <ng-template #legTemplate >
+                <div><div>
+                        <p>{{ selectedCity }}</p>
+                        <p>{{ enriched }}</p>
+                        <input [(ngModel)]="leg1Value" />
+                        <input [(ngModel)]="leg2Value" />
+                      </div>
+                      <p>last operation {{ operation }}</p>
+                    </div>  
+        </ng-template>
+    </ng-template>
+   
+</div>
